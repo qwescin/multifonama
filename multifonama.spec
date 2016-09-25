@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['multifon.py', 'multifon.spec'],
-             pathex=['C:\\Python27\\work\\multifon'],
+a = Analysis(['multifonama.py', 'multifonama.spec'],
+             pathex=['C:\\Python27\\work\\multifonama'],
              binaries=None,
              datas=None,
              hiddenimports=[],
@@ -21,8 +21,8 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='multifon',
+          name='multifonama',
           debug=False,
           strip=None,
           upx=True,
-          console=False , icon='C:\\Python27\\work\\multifon\\icon.ico')
+          console=False , icon='C:\\Python27\\work\\multifonama\\icon.ico')
